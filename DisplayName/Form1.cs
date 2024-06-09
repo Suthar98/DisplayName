@@ -23,7 +23,12 @@ namespace DisplayName
 
         private void btnClick_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Your Name is: "+textBox.Text);
+            MessageBox.Show("Your Full Name is: "+ txtBox1.Text + " "+txtBox2.Text);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
